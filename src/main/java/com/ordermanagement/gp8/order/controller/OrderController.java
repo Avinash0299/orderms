@@ -26,7 +26,7 @@ import com.ordermanagement.gp8.order.dto.ProductDTO;
 import com.ordermanagement.gp8.order.service.OrderService;
 
 @RestController
-@CrossOrigin
+//@CrossOrigin
 @RequestMapping(value = "api")
 public class OrderController {
 	

@@ -9,7 +9,7 @@ public class ProductDTO {
 	
 	 String prodId;
 	@NotNull(message = "Please provide product name")
-	@Pattern(regexp = "[A-Za-z]+( [A-Za-z]+)*", message = "Name should contain only alphabets and space")
+//	@Pattern(regexp = "[A-Za-z]+( [A-Za-z]+)*", message = "Name should contain only alphabets and space")
 	String productName;
 	@NotNull(message = "Please provide price of the product")
 	@Min(200)
