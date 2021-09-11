@@ -1,12 +1,10 @@
 package com.ordermanagement.gp8.order.controller;
 
 import java.util.ArrayList;
-
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.cloud.client.discovery.DiscoveryClient;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.CrossOrigin;
@@ -35,9 +33,7 @@ public class OrderController {
 	@Autowired
 	 OrderService orderService;
 	
-	@Autowired
-	DiscoveryClient client;
-	
+
 	@Value("${user.uri}")
 	String userUri;
 	
